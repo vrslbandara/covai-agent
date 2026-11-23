@@ -1,0 +1,4 @@
+_to_delete/
+node_modules/
+.DS_Store
+Thumbs.db

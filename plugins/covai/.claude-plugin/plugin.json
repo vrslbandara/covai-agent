@@ -1,0 +1,6 @@
+{
+  "name": "covai",
+  "version": "1.0.0",
+  "description": "COVAI - IFS Cloud development agent: reads an ADO task, plans, develops on a feature branch and opens a PR.",
+  "author": { "name": "Covalent Systems Limited" }
+}
