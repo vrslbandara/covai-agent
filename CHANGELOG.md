@@ -9,3 +9,5 @@ First release for Covalent developers.
 - Optional Word technical document or specification.
 - Guard hook: blocks unsafe git commands and any ADO write except PR creation and comments.
 - Customer profile: Portsmouth Water.
+
+## 1.1.0 - Added customer profile: First Subsea.

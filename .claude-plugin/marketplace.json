@@ -11,7 +11,7 @@
       "name": "covai",
       "source": "./plugins/covai",
       "description": "COVAI - turns an ADO task, CRIM or bug into an IFS Cloud customization branch and pull request, with the developer approving each step.",
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ]
 }
