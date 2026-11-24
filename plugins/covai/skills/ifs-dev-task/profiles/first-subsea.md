@@ -4,7 +4,7 @@
 ## Customer
 - id: first-subsea
 - name: First Subsea
-- ifs_version: 25.2.10
+- ifs_version: 25.2.2
 - core_release: 25.2
 - code_generator_target: 25R2-GA (closest available in the IFS VS Code extension)
 
