@@ -351,6 +351,10 @@ and repo from the profile. The only write allowed is creating one pull request.
 - Only the stages written above exist. When a stage says "stop", end your turn. Never
   create branches, edit files, commit, push or open PRs unless a stage above tells you to,
   even if the developer asks during the run: say that step is not part of COVAI yet.
+- Search and read files with the Grep, Glob and Read tools, never with shell commands
+  (grep, find, sed, cat, head, tail, type, findstr) and never with `cd` in a command. Use the
+  shell only for the git commands the stages list and the plugin's node tools, with absolute
+  paths. This avoids needless permission prompts.
 - Core files are read-only context. Never edit or copy them into the workspace.
 - Never push to, commit on, or merge into the base branch or any protected branch.
 - Never write to ADO except where a stage explicitly says so: the technical summary comment

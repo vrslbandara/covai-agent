@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.1 - 2026-11-25
+- COVAI searches and reads files with Claude Code's Grep, Glob and Read tools instead of shell
+  commands, so it no longer triggers "path computed at run time" permission prompts.
+
+## 1.1.0 - Added customer profile: First Subsea.
+
 ## 1.0.0 - 2026-11-23
 First release for Covalent developers.
 - /covai:ifs-dev-task <id>: ADO work item to IFS Cloud customization branch and pull request,
@@ -9,5 +15,3 @@ First release for Covalent developers.
 - Optional Word technical document or specification.
 - Guard hook: blocks unsafe git commands and any ADO write except PR creation and comments.
 - Customer profile: Portsmouth Water.
-
-## 1.1.0 - Added customer profile: First Subsea.
